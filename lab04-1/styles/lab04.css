@@ -1,0 +1,103 @@
+/*
+
+filename: lab04.css
+
+author: Nguyen Sy Tho
+
+created: 7/10/2026
+
+last modified: 7/10/2026
+
+description: Styles for the lab04 HTML files
+
+<a href="#headings">Heading and Paragraphs</a> 
+            <a href="#sc">Special Characters</a> 
+            <a href="#lists">Lists</a> 
+            <a href="#tables">Tables</a>
+            <a href="#images">Images</a>
+            <a href="#hyperlinks">Hyperlinks</a>
+    Em, rem -> if using ems for the fontsize, the size of text will relative to parent element
+ best way to use for button or cards..
+
+ Universal selector represented by an * has the lowest specificity of all
+Inline styles > id selectors > class selector, atrribute selector, pseudo-classes > type selector and pseudo elements > universal selector
+
+*/
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    color: rgb(3, 3, 3);
+}
+
+nav a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 5px;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    color: rgb(22, 181, 217);
+}
+h1 {
+    color: purple; 
+    font-size: 2em; 
+    font-weight: bold; 
+}
+
+aside, footer { font-style: italic; }
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    color: rgb(202, 25, 226);
+}
+
+ol ul{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    list-style-type: square;
+    color: rgb(0, 0, 0);
+}
+
+
+.special {
+    font-weight: bold;
+    color: red;
+}
+
+#sc {
+    font-weight: bold;
+    color: red;
+}
+
+#lists {
+    font-weight: bold;
+    color: red;
+}
+
+#tables {
+    font-weight: bold;
+    color: rgb(12, 11, 11);
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+#images {
+    font-weight: bold;
+    color: rgb(50, 222, 136);
+    text-align : center;
+}
+
+#hyperlinks {
+    font-weight: bold;
+    color: rgb(218, 24, 232);
+}
