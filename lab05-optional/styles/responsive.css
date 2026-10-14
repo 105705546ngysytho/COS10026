@@ -1,0 +1,71 @@
+/*
+ * Filename: responsive.css
+ * Author: Nguyen Sy Tho
+ * Created: 14/10/2026
+ * Last modified: 14/10/2026
+ * Description: Responsive layout with breakpoints at 1024px and 568px.
+ */
+
+@media screen and (max-width: 1024px) {
+    body {
+        padding: 1em 0;
+    }
+
+    article {
+        width: 94%;
+        padding: 1.5em;
+    }
+
+    /* Two rows of three menu items avoid crowded navigation labels. */
+    nav li {
+        width: 33.333333%;
+    }
+
+    #section1,
+    #section2 {
+        width: 48%;
+        margin-right: 4%;
+    }
+
+    #section2 {
+        margin-right: 0;
+    }
+
+    #section3 {
+        clear: both;
+        float: none;
+        width: 100%;
+        overflow: auto;
+    }
+
+    #section3 img {
+        float: left;
+        width: 48%;
+        margin: 0 4% 1em 0;
+    }
+
+    #section3 h2 {
+        margin-top: 0;
+    }
+}
+
+/* Small-screen details are kept in small.css, loaded after this file. */
+@media screen and (max-width: 568px) {
+    #section1,
+    #section2,
+    #section3 {
+        float: none;
+        width: 100%;
+        margin: 0 0 1.5em;
+    }
+
+    #section3 img {
+        float: none;
+        width: 100%;
+        margin: 0;
+    }
+
+    #section3 h2 {
+        margin-top: 0.83em;
+    }
+}

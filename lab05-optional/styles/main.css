@@ -1,0 +1,123 @@
+/*
+ * Filename: main.css
+ * Author: Nguyen Sy Tho
+ * Created: 14/10/2026
+ * Last modified: 14/10/2026
+ * Description: Desktop layout for the Healthy Living responsive design lab.
+ */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 2em 0;
+    background: #eee9dd url("images/background.png") repeat;
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+}
+
+article {
+    width: 90%;
+    max-width: 75em;
+    margin: 0 auto;
+    padding: 2em;
+    background-color: #fff;
+    box-shadow: 0 2px 12px #0002;
+}
+
+header,
+footer {
+    text-align: center;
+}
+
+h1,
+h2,
+nav a {
+    font-family: "Love Ya Like A Sister", cursive;
+}
+
+h1 {
+    margin: 0 0 0.4em;
+    color: #486b2a;
+    font-size: 3.5em;
+    line-height: 1.2;
+}
+
+h2 {
+    color: #486b2a;
+    font-size: 1.7em;
+    line-height: 1.3;
+}
+
+nav {
+    margin-bottom: 2em;
+    border-top: 1px solid #ced6c5;
+    border-bottom: 1px solid #ced6c5;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* Clear the floated menu items while keeping the nav's border around them. */
+nav ul::after,
+article::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+nav li {
+    float: left;
+    width: 16.666666%;
+    text-align: center;
+}
+
+nav a {
+    display: block;
+    padding: 0.6em 0.25em;
+    color: #365322;
+    font-size: 1.4em;
+    text-decoration: none;
+}
+
+nav a:hover,
+nav a:focus-visible {
+    background-color: #eaf0e3;
+    color: #223815;
+}
+
+section {
+    float: left;
+    width: 31.333333%;
+    margin: 0 3% 1.5em 0;
+}
+
+#section3 {
+    margin-right: 0;
+}
+
+section img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+section p {
+    margin-bottom: 0;
+}
+
+footer {
+    clear: both;
+    padding-top: 1em;
+    border-top: 2px solid #ced6c5;
+}
+
+footer h2 {
+    margin: 0;
+}
