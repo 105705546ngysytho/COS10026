@@ -1,0 +1,12 @@
+body { font-family: Arial, sans-serif; max-width: 900px; margin: 40px auto; padding: 0 20px; color: #243247; background: #f5f7fa; }
+header, main, footer { margin-bottom: 28px; }
+a { color: #1459a6; }
+main { padding: 24px; background: white; border: 1px solid #cbd5e1; border-radius: 8px; overflow-x: auto; }
+table { border-collapse: collapse; width: 100%; }
+caption { text-align: left; margin-bottom: 12px; }
+th, td { border: 1px solid #cbd5e1; padding: 12px; text-align: left; }
+th { background: #eaf0f8; }
+label { display: block; margin-bottom: 8px; }
+input, button { font: inherit; padding: 10px; margin-bottom: 10px; }
+input { max-width: 100%; box-sizing: border-box; }
+button { color: white; background: #1459a6; border: 1px solid #1459a6; cursor: pointer; }
